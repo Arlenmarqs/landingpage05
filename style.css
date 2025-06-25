@@ -324,3 +324,30 @@ p {
   margin-bottom: 6px;
   color: #ccc;
 }
+.store-buttons img {
+  display: block;
+  width: 140px;
+  margin-bottom: 12px;
+  border-radius: 6px;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border-top: 1px solid #333;
+  margin-top: 40px;
+  padding-top: 20px;
+  font-size: 13px;
+}
+
+.footer-bottom-left span {
+  margin-right: 20px;
+  color: #aaa;
+}
+
+.footer-bottom-right img {
+  width: 22px;
+  margin-left: 14px;
+  filter: grayscale(1) brightness(0.9);
+}
