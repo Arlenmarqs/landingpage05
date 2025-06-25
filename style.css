@@ -203,3 +203,18 @@ input {
   flex: 1;
   order: 2;
 }
+.container.right .image {
+  flex: 1;
+  order: 1;
+}
+
+.container.right .text {
+  flex: 1;
+  order: 2;
+}
+
+.image img {
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
